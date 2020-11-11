@@ -214,6 +214,8 @@ small_prior = Hyperparams(
     attn_order=2,
     blocks=64,
     init_scale=0.7,
+    labels=False,
+    restore_prior="logs/pretrained_vqvae_small_prior/checkpoint_latest.pth.tar" #GV
 )
 HPARAMS_REGISTRY["small_prior"] = small_prior
 
