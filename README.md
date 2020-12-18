@@ -264,6 +264,8 @@ mpiexec -n {ngpus} python jukebox/train.py --hps=vqvae,prior_1b_lyrics,all_fp16,
 ```
 To get the best sample quality, it is recommended to anneal the learning rate in the end. Training the 5B top-level requires GPipe which is not supported in this release.
 
+# Sampling the codebook
+
 # Citation
 
 Please cite using the following bibtex entry:
